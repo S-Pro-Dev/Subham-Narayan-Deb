@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subham - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Subham's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contect me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- 1st Sections -->
+
+      <section class="firstSection">
+        <div class="leftSection">
+          <h1>Hi,</h1>
+          My name is <span class="purple">Subham</span>
+          <div>and I am a passionate</div>
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+          <div class="botton">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="img/Dev-logo.png" alt="img" />
+        </div>
+      </section>
+
+      <!-- 2nd Sections -->
+      <hr />
+
+      <section class="secondSection">
+        <span class="text-gray">What I Have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="img-top" src="img/HTMl.png" alt="img" />
+            <div class="vertical-title">HTML Devloper (2010 - 2011)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aperiam quam ex. Adipisci, aliquid nisi! Quod qui nemo blanditiis
+              excepturi ducimus, maiores vel!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="img/Css.png" alt="img" />
+            <div class="vertical-title">CSS Devloper (2010 - 2011)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aperiam quam ex. Adipisci, aliquid nisi! Quod qui nemo blanditiis
+              excepturi ducimus, maiores vel!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="img/JavaScript.png" alt="img" />
+            <div class="vertical-title">JavaScript Devloper (2010 - 2011)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aperiam quam ex. Adipisci, aliquid nisi! Quod qui nemo blanditiis
+              excepturi ducimus, maiores vel!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="img/NodeJs.png" alt="img" />
+            <div class="vertical-title">Node js Devloper (2010 - 2011)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aperiam quam ex. Adipisci, aliquid nisi! Quod qui nemo blanditiis
+              excepturi ducimus, maiores vel!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="img/react.png" alt="img" />
+            <div class="vertical-title">React Devloper (2012 - 2015)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aperiam quam ex. Adipisci, aliquid nisi! Quod qui nemo blanditiis
+              excepturi ducimus, maiores vel!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="img/Python.png" alt="img" />
+            <div class="vertical-title">Python Devloper (2010 - 2011)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aperiam quam ex. Adipisci, aliquid nisi! Quod qui nemo blanditiis
+              excepturi ducimus, maiores vel!
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first"><h3>Harry's Devloper Portfolio</h3></div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact me</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact me</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact me</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-center">
+        subhamsportfolio.com | All right reserved by Coptyright&#169;
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- typed.js CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      let typed = new Typed("#element", {
+        strings: [
+          "Web Devloper",
+          "Graphic Designer",
+          "UI and UX Designer",
+          "Photo And Video Editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
